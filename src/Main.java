@@ -12,9 +12,9 @@ public class Main {
 
     }
 
-    public static double calculateCustoms(int w, int p) {
+    public static double calculateCustoms(int weight, int price) {
         double result = 0;
-        result = (p * 0.01) + (w * 100);
+        result = (price * 0.01) + (weight * 100);
         return result;
     }
 
